@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "StillWords",
+    "slug": "codealpha-quote-generator",
+    "scheme": "stillwords",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "headers": {
+            "Cross-Origin-Embedder-Policy": "credentialless",
+            "Cross-Origin-Opener-Policy": "same-origin"
+          }
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.samuelop.stillwords"
+    },
+    "ios": {
+      "bundleIdentifier": "com.samuelop.stillwords"
+    }
+  }
+}
